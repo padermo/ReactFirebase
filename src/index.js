@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import LoginView from "./routes/LoginView";
 import DashboardView from "./routes/DashboardView";
 import EditProfileView from "./routes/EditProfileView";
@@ -15,8 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="login" element={<LoginView />} />
+      <Route path="/" element={<LoginView />} />
       <Route path="dashboard" element={<DashboardView />} />
       <Route path="dashboard/profile" element={<EditProfileView />} />
       <Route path="signout" element={<SignOutView />} />

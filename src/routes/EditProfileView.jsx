@@ -22,11 +22,11 @@ function EditProfileView() {
   };
 
   const handleUserNotRegistered = (user) => {
-    navigate("/login");
+    navigate("/");
   };
 
   const handleUserNotLoggedIn = () => {
-    navigate("/login");
+    navigate("/");
   };
 
   const handleOpenFilePicker = () => {

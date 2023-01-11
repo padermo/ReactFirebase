@@ -11,11 +11,11 @@ function SignOutView() {
   };
 
   const handleUserNotRegistered = (user) => {
-    navigate("/login");
+    navigate("/");
   };
 
   const handleUserNotLoggedIn = () => {
-    navigate("/login");
+    navigate("/");
   };
 
   return (
