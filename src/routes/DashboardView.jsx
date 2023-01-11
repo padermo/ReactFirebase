@@ -30,11 +30,11 @@ function DashboardView() {
   };
 
   const handleUserNotRegistered = (user) => {
-    navigate("/");
+    navigate("/login");
   };
 
   const handleUserNotLoggedIn = () => {
-    navigate("/");
+    navigate("/login");
   };
 
   if (state === 0) {

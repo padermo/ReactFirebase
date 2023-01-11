@@ -21,7 +21,7 @@ function ChooseUsernameView() {
   };
 
   const handleUserNotLoggedIn = () => {
-    navigate("/");
+    navigate("/login");
   };
 
   const handleInputUsername = (e) => {

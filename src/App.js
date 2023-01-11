@@ -1,9 +1,10 @@
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      app
+      <Link to={'login'}>Ir a login</Link>
     </div>
   );
 }
